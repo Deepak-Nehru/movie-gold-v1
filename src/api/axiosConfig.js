@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-baseURL: 'https://d2reo2yoy0hqdo.cloudfront.net',
+baseURL: 'https://d30n2cbpfk5f4w.cloudfront.net',
 headers: {"skip-browser-warning": "true"}
 }); 
