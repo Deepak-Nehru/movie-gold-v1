@@ -22,7 +22,7 @@ return (
                     <NavLink className="nav-link" to="/watchList">Watch List</NavLink>
                 </Nav>
                 <Button variant="outline-info" className="me-2">Login</Button>
-                <Button variant="outline-info" >Register</Button>
+                <Button variant="outline-info" >Sign in</Button>
             </Navbar.Collapse>
         </Container>
 

@@ -7,7 +7,7 @@ import Home from './components/home/Home';
 import Header from './components/header/Header';
 import Reviews from './components/reviews/Reviews';
 import Trailer from './components/trailer/Trailer';
-import NotFound from './components/notFound/NotFound';
+import Watchlist from './components/Watchlist/Watchlist';
 
 
 function App() {
@@ -61,7 +61,7 @@ function App() {
         <Route path='/' element={<Home movies={movies}/>}></Route>
         <Route path='/Trailer/:ytTrailerId'element={<Trailer/>}></Route>
         <Route path='/Reviews/:movieId' element={<Reviews getMovieData={getMovieData} movie={movie} reviews={reviews} setReviews={setReviews}/>}></Route>
-        <Route path='*' element={<NotFound/>}></Route>
+        <Route path='*' element={<Watchlist/>}></Route>
         </Route>
       </Routes>
     </div>
